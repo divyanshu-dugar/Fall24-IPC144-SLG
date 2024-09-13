@@ -25,6 +25,8 @@ Write a C program that takes the total number of hours and minutes from the user
 
 ![C](https://github.com/user-attachments/assets/1d810d5d-33d1-4b29-b983-1f075b3f0dbe)
 
+  <hr>
+  
 ### Week-3 Debugging:
 
 Got it! Here’s a new debugging problem based on your example, formatted for a Markdown file:
