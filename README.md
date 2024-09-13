@@ -36,32 +36,38 @@ Debug the following program. This program is supposed to read in 4 numbers, then
 
 **Code:**
 
+## Debugging Exercise
+
+Debug the following program. This program is supposed to read in 4 numbers, then calculate the sum and average of the numbers, and print these out. However, it does not currently work. The program has various errors (bugs):
+
+**Code:**
+
 ```c
-1.  #include <stdio.h>
+1.  #include <stdlib.h>
 2.  
 3.  int main(void) {
-4.      int num1, num2, num3, num4;
+4.      int num1, num2, num3, num4
 5.      int total;
 6.      float average;
 7.  
 8.      printf("Enter num1: ");
 9.      scanf("%d", &num1);
 10.     printf("Enter num2: ");
-11.     scanf("%lf", &num2);
+11.     scanf("%d", &num2);
 12.     printf("Enter num3: ");
-13.     scanf("%d", &num3);
+13.     scanf("%d", num3);
 14.     printf("Enter num4: ");
 15.     scanf("%d", &num4);
 16.  
 17.     total = num1 + num2 + num3 + num4;
-18.     average = total // 4;
+18.     average = total / 4;
 19.  
 20.     printf("The total is: %d\n", total);
-21.     printf("The average is: %f\n", average);
+21.     printf("The average is: %.2f\n", average);
 22.  
 23.     return 0;
 24. }
-```
+
 
 ### a) List the syntax errors of the program. Write down the line number and what is wrong on that line.
 
@@ -71,5 +77,3 @@ Syntax errors are errors that prevent your compiler from creating an executable.
 
 Logical errors are errors that make your program behave differently than expected. They don't prevent you from getting an executable; the executable just doesn't do the job properly.
 ```
-
-This exercise includes syntax and logical errors in reading inputs, performing arithmetic operations, and printing results. It will help students practice debugging both types of errors.
