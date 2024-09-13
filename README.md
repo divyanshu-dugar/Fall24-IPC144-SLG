@@ -18,3 +18,8 @@ Write a C program that takes the total number of hours and minutes from the user
 
 - **Group 5**: `int main();`  
   This is the main function that will coordinate the execution of the program, calling the above functions as necessary.
+
+### Week-2 Walkthrough:
+
+![C](https://github.com/user-attachments/assets/1d810d5d-33d1-4b29-b983-1f075b3f0dbe)
+
