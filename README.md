@@ -1,6 +1,6 @@
 # Fall24-IPC144-SLG
 
-### Week-2 Coding Question:
+### Week-3 Coding Question:
 
 Write a C program that takes the total number of hours and minutes from the user, then calculates and displays the total number of seconds. The following functions are to be created to achieve the desired task:
 
