@@ -13,7 +13,7 @@
 
 3. Print the values of all the variables on the screen.
 
-</hr>
+<hr>
 
 ### Week-3 Coding Question:
 
