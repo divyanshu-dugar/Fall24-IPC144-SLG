@@ -1,6 +1,6 @@
 # Fall24-IPC144-SLG
 
-## Week-2 Coding Question:
+### Week-2 Coding Question:
 
 ### Task Description:
 1. Write a C program (WAP) to perform the following tasks:
@@ -12,6 +12,8 @@
 2. Declare and initialize variables with values of your choice, covering all the main data types in C (e.g., `int`, `float`, `double`, `char`).
 
 3. Print the values of all the variables on the screen.
+
+</hr>
 
 ### Week-3 Coding Question:
 
