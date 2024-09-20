@@ -64,6 +64,6 @@ The program will:
 
 ## 2. Walkthrough Question:
 
-
+![Walkthrough](https://github.com/user-attachments/assets/8a619fb7-d1bf-4189-aac8-fb2d35e84fc8)
 
 <hr>
