@@ -1,6 +1,6 @@
 # Week-4 
 
-## Coding Question:
+## 1. Coding Question:
 
 **Program Description:**  
 Write a C program that performs arithmetic, logical, and relational expressions on two integers provided by the user. The program will break down into functions as per the following structure:
@@ -62,3 +62,6 @@ The program will:
 
 <hr>
 
+## 2. Walkthrough Question:
+
+<hr>
