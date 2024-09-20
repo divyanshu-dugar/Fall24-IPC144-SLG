@@ -1,4 +1,4 @@
-# Week-3 Solutions
+# Week-3 Questions
 
 ## Coding Question:
 
