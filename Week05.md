@@ -106,7 +106,7 @@ This problem provides a practical example of how key programming concepts are us
 
 --- 
 
-## 1. Walkthough Question
+## 2. Walkthough Question
 
 ![Walkthrough](https://github.com/user-attachments/assets/7bbfdb98-0df5-406e-b23e-ccb46aff2a0c)
 
