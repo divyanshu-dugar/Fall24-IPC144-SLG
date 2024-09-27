@@ -105,3 +105,8 @@ Keep hydrating, you're slightly below the daily goal.
 This problem provides a practical example of how key programming concepts are used to implement real-world features such as **tracking fitness goals**.
 
 --- 
+
+## 1. Walkthough Question
+
+![Walkthrough](https://github.com/user-attachments/assets/7d16cfed-39d0-4fd8-9532-696092e35f87)
+
