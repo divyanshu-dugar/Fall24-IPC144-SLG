@@ -1,7 +1,5 @@
 # Week - 05 
 
----
-
 ## Creative Programming Problem: Fitness Tracking App
 
 ### Scenario:
