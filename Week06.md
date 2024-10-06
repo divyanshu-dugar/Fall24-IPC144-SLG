@@ -28,9 +28,6 @@
 
 
 ## Part B - Coding Question
-Here’s a markdown-friendly version of the instructions:
-
----
 
 ### C Programming Assignment
 
