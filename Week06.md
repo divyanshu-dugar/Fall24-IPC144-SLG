@@ -94,7 +94,7 @@ int main() {
 ---
 
 ## Part C - Walkthough Question
-![Walkthrough-Without-Arrays](https://github.com/user-attachments/assets/79501d2c-3b98-4a29-a023-4e704944aa5c)
+![Walkthrough-Without-Arrays](https://github.com/user-attachments/assets/cf9596f7-0ea6-476c-9e78-243d1190f289)
 
 ---
 
