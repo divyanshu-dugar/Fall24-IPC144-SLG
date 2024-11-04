@@ -4,7 +4,7 @@ Hello! Welcome to IPC144 SLG GitHub Repository by Divyanshu Dugar
 ## Refer to the below document to prepare yourself for C Interview Questions (Part A of your Mid-Term and Finals Exam)
 [C-Interview Questions] (https://docs.google.com/document/d/1C0ae6AsCeM2ssBZItujsAtxl2Fo5_w6vcnqv4YUgSAs/edit?usp=sharing)
 
-## Practice Problems - Number Theory Problems
+## Logic Building Practice Problems - Number Theory Problems
 
 | No. | Problem              | Description                                                                                     |
 |-----|----------------------|-------------------------------------------------------------------------------------------------|
