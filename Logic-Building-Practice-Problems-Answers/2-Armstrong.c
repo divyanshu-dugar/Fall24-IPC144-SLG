@@ -1,3 +1,6 @@
+// An Armstrong number (also known as a Narcissistic number) for a given number of digits is a number that is equal to 
+// the sum of its digits each raised to the power of the number of digits.
+// Eg: 153 = 1^3 + 5^3 + 3^3 = 153
 #include <stdio.h>
 
 // Function to count the number of digits in a number
