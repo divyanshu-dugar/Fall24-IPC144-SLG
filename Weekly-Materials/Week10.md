@@ -34,7 +34,7 @@ Welcome to today’s SLG session! We’ll be diving into pointers, structures, a
    - Write a function `printAllStudents` that takes an array of `Student` structures and its size as parameters, then prints the details of each student.
    - How does passing an array of structures differ from passing a single structure by reference?
 
-### 10. **Advanced: Function Returning a Structure**
+### 9. **Advanced: Function Returning a Structure**
    - Write a function `createStudent` that returns a `Student` structure. The function should take parameters for name, age, and GPA, create a `Student` structure with these values, and return it. 
    - What are the pros and cons of returning structures directly from functions?
 
