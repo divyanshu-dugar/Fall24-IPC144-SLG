@@ -130,4 +130,14 @@ int main() {
     return 0;
 }
 ```
+---
 
+Discussion Questions
+1. Why do we use pointers in structures?
+2. How does the -> operator differ from the . operator when accessing structure members?
+3. How do we pass an array of structures to a function?
+4. What are other possible use cases for arrays of structures in real-world scenarios?
+5. Why wasn’t the salary updated in the debugging activity (Activity 3)?
+6. When should you pass a structure by value versus by reference in a function?
+7. What changes were required to fix the code in Activity 3, and why?
+8. What are the advantages of reusing functions like findMostExpensiveBook for similar problems in the future?</ul>
