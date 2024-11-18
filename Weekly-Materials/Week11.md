@@ -39,27 +39,6 @@ By the end of this session, you will be able to:
    - Populate its fields.
    - Call the `printStudentDetails` function using a pointer.
 
-### Sample Code Skeleton
-```c
-#include <stdio.h>
-
-struct Student {
-    int rollNo;
-    char name[50];
-    float marks;
-};
-
-void printStudentDetails(struct Student *s) {
-    // Implement this
-}
-
-int main() {
-    struct Student student = {1, "John Doe", 85.5};
-    // Call the function
-    return 0;
-}
-```
-
 ---
 
 ## Activity 2: Array of Structures and Functions
@@ -76,32 +55,6 @@ int main() {
    - Create an array of 3 `Book` structures.
    - Populate their fields.
    - Find and print the most expensive book.
-
-### Sample Code Skeleton
-```c
-#include <stdio.h>
-
-struct Book {
-    int id;
-    char title[100];
-    float price;
-};
-
-int findMostExpensiveBook(struct Book books[], int size) {
-    // Implement this
-    return 0; // Return the index of the most expensive book
-}
-
-int main() {
-    struct Book books[3] = {
-        {1, "C Programming", 29.99},
-        {2, "Data Structures", 35.50},
-        {3, "Algorithms", 40.00}
-    };
-    // Call the function and print the result
-    return 0;
-}
-```
 
 ---
 
