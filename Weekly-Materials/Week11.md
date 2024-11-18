@@ -24,7 +24,7 @@ By the end of this session, you will be able to:
 
 # IPC SLG Session: Activities
 
-## Activity 1: Basics of Structures and Pointers
+## Activity 1: Basics of Structures and Pointers [15 mins]
 
 ### Problem Description
 1. Define a structure `Student` with the following fields:
@@ -41,7 +41,7 @@ By the end of this session, you will be able to:
 
 ---
 
-## Activity 2: Array of Structures and Functions
+## Activity 2: Array of Structures and Functions [30 mins]
 
 ### Problem Description
 1. Define a structure `Book` with the following fields:
@@ -58,7 +58,7 @@ By the end of this session, you will be able to:
 
 ---
 
-## Activity 3: Debugging a Code Snippet
+## Activity 3: Debugging a Code Snippet [15]
 
 ### Problem Description
 Debug the following code snippet to ensure the employee's salary is updated correctly. Identify and fix the errors.
@@ -85,7 +85,7 @@ int main() {
 ```
 ---
 
-Discussion Questions
+Discussion Questions [20]
 1. Why do we use pointers in structures?
 2. How does the -> operator differ from the . operator when accessing structure members?
 3. How do we pass an array of structures to a function?
