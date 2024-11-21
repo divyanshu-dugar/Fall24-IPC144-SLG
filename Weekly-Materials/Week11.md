@@ -78,7 +78,7 @@ void updateSalary(struct Employee emp, float increment) {
 
 int main() {
     struct Employee e1 = {101, "Alice", 50000};
-    updateSalary(&e1, 5000); // struct Employee* emp = &e1, float increment = 5000
+    updateSalary(&e1, 5000);
     printf("Updated Salary: %.2f\n", e1.salary);
     return 0;
 }
