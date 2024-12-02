@@ -92,3 +92,85 @@ Wake Me Up When September Ends
 ```
 
 You would store this information into the first 3 elements of `tracks`. The position for all three would be initialized to 0. The length of the first track would be 20, the second would be 26, and the third would be 27. The function would return 3.
+
+---
+
+#### Walkthrough Question
+
+```c
+1.  #include <stdio.h>
+2.  #include <string.h>
+3.  #include <ctype.h>
+4.  #define MAX 12
+5.  
+6.  void modifyString(char s[]);
+7.  
+8.  int main(void) 
+9.  {
+10.     int flag = ;  // Fill in this blank
+11.     char word1[MAX + 1] = "happy ";
+12.     char word2[MAX + 1] = "puppies ";
+13.     char word3[MAX + 1] = "barked ";
+14.     char word4[MAX + 1] = "loudly ";
+15.     char word5[MAX + 1] = "yesterday ";
+16.     char word6[MAX + 1] = "morning ";
+17.     char result[MAX * 10 + 1] = "";
+18.     char temp[MAX * 10 + 1] = "";
+19.  
+20.     strcat(result, word1);
+21.     printf("1: %s\n", result);
+22.  
+23.     if (flag % 2 == 0) {
+24.         modifyString(word2);
+25.         strcat(result, word2);
+26.         strcat(word1, word3);
+27.     } else {
+28.         modifyString(word3);
+29.         strcat(result, word3);
+30.         strcat(word1, word2);
+31.     }
+32.  
+33.     printf("2: %s\n", result);
+34.     printf("3: %s\n", word1);
+35.  
+36.     strcat(result, word4);
+37.     printf("4: %s\n", result);
+38.  
+39.     strcpy(temp, result);
+40.  
+41.     printf("5: %s\n", result);
+42.     printf("6: %s\n", temp);
+43.  
+44.     if (strcmp(result, temp) == 0) {
+45.         strcpy(result, word5);
+46.         strcat(result, temp);
+47.         strcat(result, word1);
+48.     } else {
+49.         strcpy(temp, word2);
+50.         strcat(result, word6);
+51.         strcat(result, temp);
+52.     }
+53.  
+54.     printf("7: %s\n", result);
+55.     printf("8: %s\n", temp);
+56.  
+57.     return 0;
+58.  }
+59.  
+60.  void modifyString(char s[]) {
+61.      int i;
+62.      for (i = 0; s[i] != '\0'; i++) {
+63.          if (i % 2 == 0) {
+64.              s[i] = toupper(s[i]);
+65.          }
+66.      }
+67.  }
+```
+
+---
+
+### Questions:
+
+1. **(1 mark)** Fill in the blank on line 10 with the second-to-last digit of your student number.  
+2. **(11 marks)** What is the exact output of the program for the given value of `flag`?  
+3. **(8 marks)** Produce a table showing variable tracking and function call tracking as part of your rough work.
