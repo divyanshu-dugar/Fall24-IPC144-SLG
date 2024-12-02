@@ -140,78 +140,18 @@ Since the question requires the **second-to-last** digit of your student number,
 
 **Part 2: Exact Output of the Program**
 
-Let’s break down the program's execution based on the student number `149325227` (using `flag = 2`).
+**Final Output**:
 
-- The program starts by concatenating the string `word1` ("happy ") to the `result` string, so the first output will be:
-
-    ```c
-    1: happy 
-    ```
-
-- Next, the program checks the condition `flag % 2 == 0`. Since `flag` is `2`, this condition is **true**, and it enters the `if` block:
-    - `modifyString(word2)` is called with `word2 = "puppies "`. 
-    - The `modifyString` function iterates over `word2` and converts every character at even indices to uppercase:
-        - `word2` becomes `"PUPPIES "` (all letters at even indices become uppercase).
-    - After modifying `word2`, it is concatenated to `result`, so now `result` becomes:
-    
-      ```c
-      result = "happy PUPPIES "
-      ```
-
-    - The program then concatenates `word1` with `word3`, so `word1` becomes `"happy puppies barked "`.
-
-    After this block, the program prints:
-
-    ```c
-    2: happy PUPPIES 
-    3: happy puppies barked 
-    ```
-
-- Then, `word4 = "loudly "` is concatenated to `result`, so:
-
-    ```c
-    result = "happy PUPPIES loudly "
-    ```
-
-    It prints:
-
-    ```c
-    4: happy PUPPIES loudly 
-    ```
-
-- The program then copies `result` to `temp`, so `temp` becomes:
-
-    ```c
-    temp = "happy PUPPIES loudly "
-    ```
-
-    It prints:
-
-    ```c
-    5: happy PUPPIES loudly 
-    6: happy PUPPIES loudly 
-    ```
-
-- The program checks if `result` and `temp` are equal. Since both are the same, it enters the `if` block:
-    - `result` is set to `word5 = "yesterday "` and `temp` is appended to it, followed by `word1`. 
-    - `result` becomes:
-
-      ```c
-      result = "yesterday happy PUPPIES loudly happy puppies barked "
-      ```
-
-    - The program then prints:
-
-    ```c
-    7: yesterday happy PUPPIES loudly happy puppies barked 
-    ```
-
-- Finally, it prints the value of `temp` (which was not changed):
-
-    ```c
-    8: happy PUPPIES loudly 
-    ```
-
+```c
+1: happy 
+2: happy PUPPIES 
+3: happy puppies barked 
+4: happy PUPPIES loudly 
+5: happy PUPPIES loudly 
+6: happy PUPPIES loudly 
+7: yesterday happy PUPPIES loudly happy puppies barked 
+8: happy PUPPIES loudly 
+```
 ---
 
 **Part 3: Table of Variable Tracking and Function Call Tracking**
@@ -238,16 +178,3 @@ Let’s break down the program's execution based on the student number `14932522
 | 45    | result         | "yesterday happy PUPPIES loudly happy puppies barked " | Concatenated word5, temp, and word1 to result.             |
 
 --- 
-
-**Final Output**:
-
-```c
-1: happy 
-2: happy PUPPIES 
-3: happy puppies barked 
-4: happy PUPPIES loudly 
-5: happy PUPPIES loudly 
-6: happy PUPPIES loudly 
-7: yesterday happy PUPPIES loudly happy puppies barked 
-8: happy PUPPIES loudly 
-```
