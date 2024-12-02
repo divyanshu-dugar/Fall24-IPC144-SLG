@@ -125,6 +125,69 @@ void printTrackDetails(const char filename[], struct Track tracks[], int size, i
 ```
 
 ---
+### File System Coding Question Answer
+```c
+#include <stdio.h>
+#include <string.h>
+
+#define MAX_LINE_LENGTH 500
+
+// Define the Track structure
+struct Track {
+    char name[MAX_LINE_LENGTH + 1];  // String to store the track name
+    int position;                     // Position of the track (initialized to 0)
+    int length;                       // Length of the track name
+};
+
+// Function to read tracks from the file
+int readTracks(const char filename[], struct Track tracks[], int maxTracks) {
+    FILE *file = fopen(filename, "r"); // Open the file for reading
+    if (file == NULL) {
+        printf("Error: Could not open file.\n");
+        return 0;  // Return 0 if the file could not be opened
+    }
+
+    int trackCount = 0;  // Counter to keep track of the number of tracks read
+    char line[MAX_LINE_LENGTH + 1];  // Buffer to store each line read from the file
+
+    // Read each line from the file until we reach the maximum capacity or end of file
+    while (fgets(line, sizeof(line), file) != NULL && trackCount < maxTracks) {
+        // Remove the newline character from the end of the string (if present)
+        line[strcspn(line, "\n")] = '\0';
+
+        // Store the track name in the tracks array
+        strncpy(tracks[trackCount].name, line, MAX_LINE_LENGTH);
+
+        // Initialize position to 0 and set the length of the track
+        tracks[trackCount].position = 0;
+        tracks[trackCount].length = strlen(line);
+
+        trackCount++;  // Increment the track counter
+    }
+
+    fclose(file);  // Close the file
+    return trackCount;  // Return the number of tracks successfully read
+}
+
+int main() {
+    struct Track tracks[10];  // Array to store up to 10 tracks
+    int maxTracks = 10;
+    const char *filename = "tracks.txt";  // Replace with your file name
+
+    int tracksRead = readTracks(filename, tracks, maxTracks);
+    printf("Number of tracks read: %d\n", tracksRead);
+
+    // Print the details of the tracks read
+    for (int i = 0; i < tracksRead; i++) {
+        printf("Track %d: %s (Length: %d, Position: %d)\n", 
+               i + 1, tracks[i].name, tracks[i].length, tracks[i].position);
+    }
+
+    return 0;
+}
+```
+
+---
 
 ### Answer to the Walkthrough Question:
 
