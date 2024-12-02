@@ -71,3 +71,24 @@ The function writes each track’s `data` member to the file. If `detailed` is 1
 If `detailed` is 0, write only the `track_name`.  
 
 --- 
+
+#### File System
+
+**Question:**  
+Write the following function:
+
+```c
+int readTracks(const char filename[], struct Track tracks[], int maxTracks);
+```
+
+This function is passed the name of a file where each line of the file contains a string of track data. Other than the newline character, all characters within the line are valid. You may assume that no line is longer than 500 characters. This function will read each line from the file and store each line into a separate element of the `tracks` array. The array has a maximum capacity of `maxTracks`, therefore only `maxTracks` lines should be read into the array. The function returns the number of lines successfully read. The initial position for each `Track` should be set to 0. The length of each track should correspond to the length of the line read in.
+
+For example, suppose your file contains the following lines:
+
+```
+Song of the Century
+Boulevard of Broken Dreams
+Wake Me Up When September Ends
+```
+
+You would store this information into the first 3 elements of `tracks`. The position for all three would be initialized to 0. The length of the first track would be 20, the second would be 26, and the third would be 27. The function would return 3.
